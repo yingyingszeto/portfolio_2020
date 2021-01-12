@@ -1,0 +1,53 @@
+header {
+    width: 100%;
+    a:hover {
+        @include hover-link;
+    }
+    #brand-logo {
+        font: 32px $font_brand;
+        @media only screen and (max-width: 800px) {
+            font: 26px $font_brand;
+        }
+        @media only screen and (max-width: 374px) {
+            font: 6.7vw $font_brand;
+        }
+        
+        line-height: 128%;
+        padding: 10px;   
+        float: left;
+    }
+    nav{
+        @include body_small;
+        padding: 10px;
+        float: right;
+        a {
+            margin-left: 30px;
+            @media only screen and (max-width: 374px) {
+                margin-left: 20px;
+                
+            }
+        }
+       
+    }
+}
+
+/* --------- Scrolling effect --------- */
+.trigger-menu-wrapper {
+    position: fixed;
+    transition: transform 0.45s;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.scroll-down .trigger-menu-wrapper {
+    transform: translate3d(0, -100%, 0);
+}
+  
+.scroll-up .trigger-menu-wrapper {
+    transform: none;
+}
+
+
+  

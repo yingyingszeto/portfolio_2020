@@ -1,0 +1,47 @@
+footer {
+    font-family: $font_brand;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+    .moving-text {
+        height: 100px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+      
+    .moving-text div {
+        display: block;
+        width: 200%;
+        height: 100px;
+        position: absolute;
+        overflow: hidden;
+        -webkit-animation: marquee 9s linear infinite;
+                animation: marquee 9s linear infinite;
+    }
+      
+    .moving-text span {
+        float: left;
+        width: 50%;
+        font-size: 5vw;
+        @media only screen and (max-width: 600px) {
+            font-size: 7vw;
+        }
+        @media only screen and (max-width: 414px) {
+            font-size: 7.3vw;
+        }
+    }
+      
+    @-webkit-keyframes marquee {
+        0% { left: 0; }
+        100% { left: -100%; }
+    }
+      
+    @keyframes marquee {
+        0% { left: 0; }
+        100% { left: -100%; }
+    }
+    
+    
+}

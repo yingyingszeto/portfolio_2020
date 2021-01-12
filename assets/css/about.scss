@@ -1,0 +1,32 @@
+.background-color {
+    background-color: #EDEFEA;
+}
+
+#section-about {
+    a {
+        text-decoration: underline;
+        text-decoration-color: lightcoral;
+    }
+    a:hover {
+        color: $color_hover ;
+    }
+    h1 {
+        @include body_large;
+        padding: 5% 0;
+        font-weight: 600;
+    }
+    p {
+        @include body_medium;
+        line-height: 180%;
+        margin-bottom: 3%;
+    }
+   
+
+    @include body_large;
+    text-align: inherit;
+}
+
+
+
+
+

@@ -1,0 +1,4 @@
+@mixin hover-link {
+    color: $color_hover;
+    transition: all ease .3s;
+}

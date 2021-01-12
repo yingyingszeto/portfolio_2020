@@ -1,0 +1,26 @@
+$font_brand: 'Cosi Azure';
+$font_body: 'Apercu';
+
+/* body */
+@mixin body($size) {
+    font: $size $font_body;
+    font-weight: 300;
+    color: $color_primary;
+}
+
+@mixin body_large {
+    @include body(34px);
+}
+
+@mixin body_medium {
+    @include body(22px);
+}
+
+@mixin body_small {
+    @include body(18px);
+}
+
+
+
+
+
