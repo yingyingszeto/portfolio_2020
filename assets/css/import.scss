@@ -76,7 +76,7 @@ font-style: normal;
     font-family: "Cosi Azure";
     src:
     url(".../assets/fonts/cosi_azure/CosiAzure-Bold.woff"),
-    url(".../assets/fonts/cosi_azure/CosiAzure-Bold.otf") format("opentype");
+    url("https://github.com/yingyingszeto/portfolio/blob/master/assets/fonts/cosi_azure/CosiAzure-Bold.otf") format("opentype");
     font-weight: bold;
     font-style: normal;
 }
@@ -85,7 +85,7 @@ font-style: normal;
     font-family: "Apercu";
     src:
     url(".../assets/fonts/apercu/Apercu-Bold.woff"),
-    url('.../assets/fonts/apercu/Apercu-Bold.otf') format('opentype');
+    url('https://github.com/yingyingszeto/portfolio/blob/master/assets/fonts/apercu/Apercu-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -93,7 +93,7 @@ font-style: normal;
 @font-face {
     font-family: "Apercu";
     src:    url(".../assets/fonts/apercu/Apercu-Light.woff"),
-            url('.../assets/fonts/apercu/Apercu-Light.otf') format('opentype');
+            url('https://github.com/yingyingszeto/portfolio/blob/master/assets/fonts/apercu/Apercu-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
