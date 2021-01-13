@@ -1,88 +1,16 @@
-/*
-@font-face {
-    font-family: "Cosi Azure";
-    src:    url("/assets/fonts/cosi_azure/CosiAzure-Bold.woff"),
-            url('/assets/fonts/cosi_azure/CosiAzure-Bold.ttf') format('t');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Apercu";
-    src:    url("/assets/fonts/apercu/Apercu-Bold.woff"),
-            url('/assets/fonts/apercu/Apercu-Bold.ttf') format('opentype');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Apercu";
-    src:    url("/assets/fonts/apercu/Apercu-Light.woff"),
-            url('/assets/fonts/apercu/Apercu-Light.ttf') format('opentype');
-    font-weight: 300;
-}
- 
-
-font-family: 'besom'; !important
-src: url('fonts/besom/besom.eot');
-src: url('fonts/besom/besom.eot?#iefix') format('embedded-opentype'),
-     url('fonts/besom/besom.woff2') format('woff2'),
-     url('fonts/besom/besom.woff') format('woff'),
-     url('fonts/besom/besom.ttf') format('truetype'),
-     url('fonts/besom/besom.svg#besom_2regular') format('svg');
-font-weight: normal;
-font-style: normal;
-
-@font-face {
-    font-family: 'brownregular';
-    src: url('/webfonts/brown-regular-webfont.eot');
-    src: url('/webfonts/brown-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/webfonts/brown-regular-webfont.woff2') format('woff2'),
-         url('/webfonts/brown-regular-webfont.woff') format('woff'),
-         url('/webfonts/brown-regular-webfont.ttf') format('truetype'),
-         url('/webfonts/brown-regular-webfont.svg#brownregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: "Cosi Azure" !important;
-    src:url('assets/fonts/cosi_azure/CosiAzure-Bold.eot');
-    src:url('assets/fonts/cosi_azure/CosiAzure-Bold.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/cosi_azure/CosiAzure-Bold.woff2') format('woff2'),
-        url('assets/fonts/cosi_azure/CosiAzure-Bold.woff') format('woff'),
-        url('assets/fonts/cosi_azure/CosiAzure-Bold.ttf') format('truetype');
-        font-weight: bold;
-        font-style: normal;
-}
-
-@font-face {
-    font-family: "Apercu";
-    src:    url("assets/fonts/apercu/Apercu-Bold.woff"),
-            url('assets/fonts/apercu/Apercu-Bold.ttf') format('opentype');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Apercu";
-    src:    url("assets/fonts/apercu/Apercu-Light.woff"),
-            url('assets/fonts/apercu/Apercu-Light.ttf') format('opentype');
-    font-weight: 300;
-}
-*/
 @font-face {
   font-family: "Cosi Azure";
-  src: url(".../assets/fonts/cosi_azure/CosiAzure-Bold.woff"), url(".../assets/fonts/cosi_azure/CosiAzure-Bold.otf") format("opentype");
+  src: url(".../assets/fonts/cosi_azure/CosiAzure-Bold.woff"), url("https://github.com/yingyingszeto/portfolio/blob/master/assets/fonts/cosi_azure/CosiAzure-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: "Apercu";
-  src: url(".../assets/fonts/apercu/Apercu-Bold.woff"), url(".../assets/fonts/apercu/Apercu-Bold.otf") format("opentype");
+  src: url(".../assets/fonts/apercu/Apercu-Bold.woff"), url("https://github.com/yingyingszeto/portfolio/blob/master/assets/fonts/apercu/Apercu-Bold.otf") format("opentype");
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: "Apercu";
-  src: url(".../assets/fonts/apercu/Apercu-Light.woff"), url(".../assets/fonts/apercu/Apercu-Light.otf") format("opentype");
+  src: url(".../assets/fonts/apercu/Apercu-Light.woff"), url("https://github.com/yingyingszeto/portfolio/blob/master/assets/fonts/apercu/Apercu-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal; }
 /* http://meyerweb.com/eric/tools/css/reset/ 
